@@ -1,0 +1,32 @@
+.app-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .app-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .task-manager {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .task-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .task-manager {
+      flex-direction: column;
+    }
+  
+    .task-section {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  
